@@ -26,6 +26,7 @@ function App() {
           chainConfig: {
             chainNamespace: CHAIN_NAMESPACES.EIP155,
             chainId: '0x3',
+            rpcTarget: "https://mainnet.infura.io/v3/7f513826728a4361845254ab179f607e",
           },
         })
 
